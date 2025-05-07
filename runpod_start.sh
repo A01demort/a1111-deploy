@@ -110,3 +110,16 @@ fi
 # WebUI 실행
 cd "$WEBUI_DIR"
 python launch.py --xformers --listen --port 7860 --enable-insecure-extension-access
+
+
+# ====================================
+# 🎓 AI 교육 & 커뮤니티 안내 (Community & EDU)
+# ====================================
+echo -e "\n====🎓 AI 교육 & 커뮤니티 안내====\n"
+echo -e "1. Youtube : https://www.youtube.com/@A01demort"
+echo "2. 교육 문의 : https://a01demort.com"
+echo "3. Udemy 강의 : https://bit.ly/comfyclass"
+echo "4. Stable AI KOREA : https://cafe.naver.com/sdfkorea"
+echo "5. 카카오톡 오픈채팅방 : https://open.kakao.com/o/gxvpv2Mf"
+echo "6. CIVITAI : https://civitai.com/user/a01demort"
+echo -e "\n==================================="
