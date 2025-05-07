@@ -97,6 +97,11 @@ downloads=(
 "https://huggingface.co/OedoSoldier/detail-tweaker-lora/resolve/main/add_detail.safetensors|/workspace/stable-diffusion-webui/models/Lora/add_detail.safetensors"
 "https://huggingface.co/bolinzer/ghiblilora-sd1.5/resolve/main/ghibli_style_offset.safetensors|/workspace/stable-diffusion-webui/models/Lora/ghibli_style_offset.safetensors"
 
+# Segment Anything 모델 (SAM)
+"https://huggingface.co/segments-arnaud/sam_vit_h/resolve/main/sam_vit_h_4b8939.pth|/workspace/stable-diffusion-webui/extensions/segment-anything/models/sam/sam_vit_h_4b8939.pth"
+"https://huggingface.co/segments-arnaud/sam_vit_l/resolve/main/sam_vit_l_0b3195.pth|/workspace/stable-diffusion-webui/extensions/segment-anything/models/sam/sam_vit_l_0b3195.pth"
+"https://huggingface.co/segments-arnaud/sam_vit_b/resolve/main/sam_vit_b_01ec64.pth|/workspace/stable-diffusion-webui/extensions/segment-anything/models/sam/sam_vit_b_01ec64.pth"
+
 
 )
 
