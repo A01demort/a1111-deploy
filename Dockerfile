@@ -58,7 +58,7 @@ RUN git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git /works
 
 # hugging_down.sh 파일 및 설치 스크립트 복사
 # 런타임 설치 스크립트 복사
-COPY Hugging_down.sh /workspace/Hugging_down.sh
+COPY Hugging_down_a1.sh /workspace/Hugging_down_a1.sh
 COPY runpod_start.sh /workspace/runpod_start.sh
 RUN chmod +x /workspace/runpod_start.sh
 
