@@ -56,6 +56,9 @@ c.NotebookApp.terminado_settings = {'shell_command': ['/bin/bash']}" \
 # WebUI 리포지토리만 빌드에 포함
 RUN git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git /workspace/stable-diffusion-webui
 
+# ESRGAN 폴더 없으면 생성
+RUN mkdir -p /workspace/stable-diffusion-webui/models/ESRGAN
+
 # hugging_down.sh 파일 및 설치 스크립트 복사
 # 런타임 설치 스크립트 복사
 COPY Hugging_down_a1.sh /workspace/Hugging_down_a1.sh
