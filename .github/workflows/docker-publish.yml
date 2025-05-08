@@ -35,4 +35,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: a01demort/a1-automatic1111-fast:v1.0.1
+          tags: a01demort/a1-automatic1111-fast:v1.0.2
