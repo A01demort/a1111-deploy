@@ -102,6 +102,10 @@ downloads=(
 "https://huggingface.co/segments-arnaud/sam_vit_l/resolve/main/sam_vit_l_0b3195.pth|/workspace/stable-diffusion-webui/extensions/segment-anything/models/sam/sam_vit_l_0b3195.pth"
 "https://huggingface.co/segments-arnaud/sam_vit_b/resolve/main/sam_vit_b_01ec64.pth|/workspace/stable-diffusion-webui/extensions/segment-anything/models/sam/sam_vit_b_01ec64.pth"
 
+# ESRGAN 업스케일 모델 - AnimeSharp 및 Nomos2 OTF 모델
+"https://huggingface.co/Kim2091/AnimeSharp/resolve/main/4x-AnimeSharp.safetensors|/workspace/stable-diffusion-webui/models/ESRGAN/4x-AnimeSharp.safetensors"
+"https://huggingface.co/poor7/Other/resolve/91e6bdc002354314abbc2c064826d8d595cde732/4xNomos2_otf_esrgan.pth|/workspace/stable-diffusion-webui/models/ESRGAN/4xNomos2_otf_esrgan.pth"
+
 
 )
 
