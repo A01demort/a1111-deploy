@@ -107,10 +107,6 @@ if [ -d "$REACTOR_PATH" ]; then
     pip install insightface==0.7.3
 fi
 
-# WebUI 실행
-cd "$WEBUI_DIR"
-python launch.py --xformers --listen --port 7860 --enable-insecure-extension-access
-
 
 # ====================================
 # 🎓 AI 교육 & 커뮤니티 안내 (Community & EDU)
@@ -123,3 +119,8 @@ echo "4. Stable AI KOREA : https://cafe.naver.com/sdfkorea"
 echo "5. 카카오톡 오픈채팅방 : https://open.kakao.com/o/gxvpv2Mf"
 echo "6. CIVITAI : https://civitai.com/user/a01demort"
 echo -e "\n==================================="
+
+
+# WebUI 실행
+cd "$WEBUI_DIR"
+python launch.py --xformers --listen --port 7860 --enable-insecure-extension-access
