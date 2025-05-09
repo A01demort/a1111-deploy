@@ -39,7 +39,7 @@ fi
 # ====================================
 # 🔐 사전 토큰 유효성 검사
 # ====================================
-TEST_URL="https://huggingface.co/black-forest-labs/FLUX.1-Fill-dev/resolve/main/flux1-fill-dev.safetensors"
+TEST_URL="https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11e_sd15_ip2p_fp16.safetensors"
 echo "🔍 Hugging Face API 키 유효성 검사 중..."
 
 test_response=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: Bearer $HUGGINGFACE_TOKEN" "$TEST_URL")
